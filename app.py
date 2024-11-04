@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # تحميل البيانات 
-df = pd.read_csv(r"C:\sales_data_sample.csv", sep=',', encoding='ISO-8859-1')
+df = pd.read_csv("sales_data_sample.csv", sep=',', encoding='ISO-8859-1')
 
 # التأكد من تحميل البيانات
 st.title('تطبيق تحليل بيانات المبيعات')
